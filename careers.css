@@ -1,0 +1,312 @@
+.navbar {
+  display: flex;
+  background-color: rgb(199, 203, 228);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: brown;
+  }
+  
+  li {
+      list-style: none;
+  }
+  a {
+      text-decoration: none;
+  }
+  
+  .menu {
+      display: flex;
+      gap: 2em;
+  }
+  
+  
+  
+  .sub-menu-1 {
+      position: absolute;
+      display: none;
+      padding: 0.5em;
+      right: 430px;
+      background-color: whitesmoke;
+      border-radius: 0.5em;
+    
+  }
+  .sub-menu-2 {
+      position: absolute;
+      display: none;
+      padding: 0.5em;
+      right: 290px;
+      background-color: whitesmoke;
+      border-radius: 0.5em;
+      
+  }
+  .sub-menu-3 {
+      position: absolute;
+      display: none;
+      padding: 0.5em;
+      right: 200px;
+      background-color: whitesmoke;
+      border-radius: 0.5em;
+      
+  }
+  
+  .menu-item:hover {
+      background-color: whitesmoke;
+      border-radius: 5px;
+      padding: 0.05em;
+      transition: 0.1s ease;
+     }
+  
+     .menu-item:hover .sub-menu-1{
+      display: block;
+     }
+     .menu-item:hover .sub-menu-2 {
+      display: block;
+     }
+     .menu-item:hover .sub-menu-3 {
+      display: block;
+     }
+  
+     .menu-item-li {
+      margin-bottom: 10px;
+     }
+  
+  .nav-bottom {
+      background-color: rgb(102, 100, 100);
+      width:auto;
+      height: 250px;
+      margin-top: 10px;
+      padding: 50px 150px;
+  }
+  
+  .nav-bottom h1 {
+      color: rgb(192, 189, 189);
+  }
+  
+  .nav-bottom p {
+      color: blue;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  
+  address {
+      color: antiquewhite;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
+  .quick-links .contact {
+      display: inline-block;
+  }
+  
+  .quick-links {
+      margin-left: 450px;
+      margin-top: -220px;
+  
+  }
+  
+  .quick-links-ul a {
+      color: rgb(24, 24, 212);
+      font-size: 20px;
+      
+  
+  }
+  .social-media {
+      margin-left: -150px;
+      font-size: 30px;
+  }
+  
+  .fa {
+      
+      margin-left: 30px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      
+  }
+  .fa-facebook {
+      background: #3B5998;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 0.5em;
+    }
+  
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 0.5em;
+    }
+    
+    
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 0.5em;
+    }
+    
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 0.5em;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;
+      border-radius: 0.5em;
+    }
+    
+   
+    .fa-skype {
+      background: #00aff0;
+      color: white;
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      padding: 10px;;
+      border-radius: 0.5em;
+    }
+  
+    .form-subscribe {
+      margin-left: 950px;
+      margin-top: -290px;
+      
+    }
+  
+    fieldset{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: none;
+      height: 25px;
+      justify-content: space-between;
+    }
+  
+    .form-subscribe p {
+      
+      font-size: 18px;
+    }
+  
+    input {
+      background-color: #92a9b1;
+      border-radius:0.5em;
+      height: 25px;
+      width: 250px;
+      margin-left: 20px;
+      text-align: center;
+      cursor: pointer;
+    }
+  
+    input:hover {
+      background-color: aliceblue;
+      color: orange;
+    }
+  
+  
+  .button-1 {
+    display: flex;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 100px;
+    width: 200px;
+   padding: 0.5em 4em;
+    color: white;
+    background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover {
+      opacity: 0.6;
+      color: #992669;
+  }
+
+.imageC {
+    margin-left: 920px;
+    padding: 2em;
+    margin-top: -900px;
+}
+.home3 h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.home3 {
+    width: 35%;
+    height: 300px;
+    padding: 2em;
+    background-color: rgb(229, 231, 233);
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.home3 button {
+    margin-top: 100px;
+    margin-left: 20px;
+    height:70px;
+    width: 300px;
+    font-size: 20px;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+   
+}
+
+main {
+  background-image: url("theatre-photo.jpg");
+  height: 500px;
+  text-align: center;
+  padding-top: 150px;
+  margin-top: 5px;
+}
+.vac{
+  background-color: antiquewhite;
+  height: 100px;
+  text-align: center;
+  padding-top: 2em;
+  margin-top: 10px;
+}
